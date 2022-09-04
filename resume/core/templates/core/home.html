@@ -1,0 +1,43 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+
+<div class="mt-5 text-center">
+    <img src="https://ums.lpu.in/lpuums/DisplayImageForPowerBi.aspx?id=6c326965-f8f6-4f45-8dbf-38558ffc9539"
+        alt="profilepic" class="img-thumbnail" width="180px" height="180px">
+</div>
+<div class="mt-5 text-white mx-5 text-justify">
+    <h1 class="text-center">MADHAV JHA</h1>
+    <div">
+
+        <h1 class="font-weight-bold st-font">
+            HELLO,
+        </h1>
+        <div class="px-4 " style="line-height: 2rem;">
+
+            <p style="text-indent: 130px;">
+                I am <b class="text-warning ">MADHAV JHA</b>
+                     
+                A Passionate Software Developer dedicated to improve skills through hands-on learning and development work. Efficient in Java and React as well as an beginner Linux user 
+            </p>
+            
+        </div>
+</div>
+<div class="text-center">
+    <a href="{% url 'contact' %}" class="btn btn-outline-warning my-3 mr-5">Hire Me</a>
+    <a href="{% url 'contact' %}" class="btn btn-outline-info my-3 mr-5">Contact Me</a>
+    <a href="/static/core/images/resume.pdf" target="_blank" target="_top"
+        class="btn btn-outline-warning my-3 mr-5">RESUME</a>
+
+
+    <audio src="audio.mp3">rr</audio>
+
+
+
+</div>
+
+
+
+</div>
+
+{% endblock content %}
